@@ -2,3 +2,107 @@
 /* *** Estilos SOLO para index.html *** */
 /* *********************************** */
 
+html{
+    padding:40px 40px 0px 40px;
+
+
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+main{
+    margin-left: 320px;
+    margin-right: 330px;
+    width: 900px;
+}
+
+footer{
+
+
+}
+
+hr{
+    height: 20px;
+    width: 100%;
+    background-color:#F60000;
+}
+
+    /* Cuadro de 440X440 en el centro de la página y dos de 210 a cada uno de los lados, derecha e izquierda los dos cuadros de los lados, con un texto abajo */
+
+.cuadradoP{
+    display: flex;
+    flex-direction: column;
+    height: 210px;
+    width: 210px;
+    background-color: grey;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top:0px;
+
+
+}
+
+figure{
+    margin: 0px 10px;
+}
+
+figure figcaption{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding-left:30px;
+    padding-top: 10px;
+}
+
+
+.cuadradoG{
+    height: 440px;
+    width: 440px;
+    background-color: grey;
+}
+
+
+.circulos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+
+.circulo{
+
+    background-color: #F60000;
+    border-radius:50%;
+    height: 210px;
+    width:210px;
+}
+
+.circulor{
+    background-color: #620000;
+    border-radius:50%;
+    height: 210px;
+    width:210px;
+}
+
+.txt_circulos{
+
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.supercontenedor{
+    display: flex;
+    flex-direction: column;
+}
+
